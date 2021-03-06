@@ -1,0 +1,27 @@
+
+
+.firstRow, .secondRow, .thirdRow{
+  text-align: center;
+}
+
+.firstTable{
+  /* border: 5px solid black; */
+  border-spacing: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  table-layout: fixed;
+
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.header{
+  background: lightblue;
+
+}
