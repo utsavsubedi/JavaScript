@@ -1,2 +1,2 @@
 # DjangoBootcamp
-Files Made during learning Django
+Files made while i was learning Django 
