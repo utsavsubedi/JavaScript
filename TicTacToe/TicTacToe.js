@@ -123,7 +123,31 @@ function winnerChecker(){
   else if ( thirdRowfirstColumn.textContent == "X" && thirdRowSecondColumn.textContent == "X" && thirdRowThirdColumn.textContent == "X" ){
     displayMessage("1");
   }
+
+  if (firstRowFirstColumn.textContent == "X" && secoandRowFirstColumn.textContent == "X"  && thirdRowfirstColumn.textContent == "X"){
+    displayMessage("1");
+  }
+  else if( secoandRowSecoandColumn.textContent == "X" && firstRowSecoandColumn.textContent == "X" && thirdRowSecondColumn.textContent == "X" ){
+    displayMessage("1");
+  }
+  else if ( firstRowThirdColumn.textContent == "X" && secoandRowThirdColumn.textContent == "X" && thirdRowThirdColumn.textContent == "X" ){
+    displayMessage("1");
+  }
+
+  if (firstRowFirstColumn.textContent == "O" && secoandRowFirstColumn.textContent == "O"  && thirdRowfirstColumn.textContent == "O"){
+    displayMessage("2");
+  }
+  else if( secoandRowSecoandColumn.textContent == "O" && firstRowSecoandColumn.textContent == "O" && thirdRowSecondColumn.textContent == "O" ){
+    displayMessage("2");
+  }
+  else if ( firstRowThirdColumn.textContent == "O" && secoandRowThirdColumn.textContent == "O" && thirdRowThirdColumn.textContent == "O" ){
+    displayMessage("2");
+  }
+
   else if ( firstRowFirstColumn.textContent == "X" && secoandRowSecoandColumn.textContent == "X" && thirdRowThirdColumn.textContent == "X" ){
+    displayMessage("1");
+  }
+  else if ( firstRowThirdColumn.textContent == "X" && secoandRowSecoandColumn.textContent == "X" && thirdRowfirstColumn.textContent == "X" ){
     displayMessage("1");
   }
   else if (firstRowFirstColumn.textContent == "O" && firstRowSecoandColumn.textContent == "O"  && firstRowThirdColumn.textContent == "O"){
@@ -136,6 +160,9 @@ function winnerChecker(){
     displayMessage("2");
   }
   else if ( firstRowFirstColumn.textContent == "O" && secoandRowSecoandColumn.textContent == "O" && thirdRowThirdColumn.textContent == "O" ){
+    displayMessage("2");
+  }
+  else if ( firstRowThirdColumn.textContent == "O" && secoandRowSecoandColumn.textContent == "O" && thirdRowfirstColumn.textContent == "O" ){
     displayMessage("2");
   }
 }
